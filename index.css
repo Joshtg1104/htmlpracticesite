@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*background color*/
+.container{
+    width: 100%;
+    height: 100%;
+    background: #1d489c;
+}
+/*menu placement and margin*/
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+/*menu list margin, color, and cursor change*/
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: darkgrey;
+    cursor: pointer;
+}
+/*logo size and margin*/
+.logo img{
+    width: 120px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+/*makes the secondary color take priority over the initial color*/
+.active{
+    color: cyan !important;
+}
+/*sign up button placement, border gradient color, and design*/
+.signup-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(midnightblue,midnightblue), radial-gradient(circle at top left, magenta,cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+/*sign up button border margin*/
+.signup-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+/*sets margin and position of text on the webpage and sets color to white*/
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: white;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+/*sets position and orientation of title text*/
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+/*sets position and orientation of paragraph*/
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: darkgrey;
+}
+/*positions image to the right of webpage and sets width of the area of the image*/
+.app-picture{
+    width: 50%;
+    float: right;
+}
+/*sets the margin and padding of the image*/
+.app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+}
+/*positions social media icons and adds a border around them*/
+.social-med{
+    margin-left: 30px;
+    display: inline-flex;
+    height: 50px;
+    width: 159px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(midnightblue,midnightblue), radial-gradient(circle at top left, magenta,cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+}
+/*futher corrects the placing of the social media icons within the border*/
+.social-med .fa{
+    padding-top: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+small{
+    margin: auto 20px;
+    font-size: 12px;
+    color: cyan;
+    letter-spacing: 3px;
+}
